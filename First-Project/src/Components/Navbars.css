@@ -3,6 +3,11 @@
     height: 150px;
 }
 
+.h1 {
+    color: aqua;
+    font-size: 100%;
+}
+
 .k {
     font-size: 2000%;
 }
@@ -13,7 +18,7 @@
 }
 
 .me-auto a {
-    color: rgb(231, 230, 217);
+    color: rgb(238, 237, 221);
     transition: all 0.65s ease-in-out;
 }
 
