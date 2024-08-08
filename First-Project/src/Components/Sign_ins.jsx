@@ -1,12 +1,13 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import './Sign_ins.css';
 
 function Sign_ins() {
   return (
-    <Form>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
+    <Form className='body2'>
+      <Form.Group className="mb-4" controlId="formBasicEmail">
         <Form.Label>信箱</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
+        <Form.Control className='Email' type="email" placeholder="Enter email" />
         <Form.Text className="text-muted">
           請輸入註冊的聯大信箱
         </Form.Text>

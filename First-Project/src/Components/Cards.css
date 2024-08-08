@@ -2,11 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-image: url('C:\Users\User\Desktop\NUU\NuuProject\First-Project\src\assets\images\image1.jpg'); /* 替换为你的图片路径 */
-    background-size: cover; /* 使背景图片覆盖整个容器 */
-    background-position: center; /* 背景图片居中 */
-    background-repeat: no-repeat; /* 避免背景图片重复 */
-    padding: 20px; /* 添加一些内边距，以避免卡片贴近边缘 */
+    background-image: url('C:\Users\User\Desktop\NUU\NuuProject\First-Project\src\assets\images\image1.jpg');
+    background-size: cover; /* 放滿 */
+    background-position: center; /* 置中 */
+    background-repeat: no-repeat; /* 避免重複 */
+    padding: 20px;
   }
 
 .card-item {
