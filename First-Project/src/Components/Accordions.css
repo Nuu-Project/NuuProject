@@ -1,3 +1,10 @@
 .body {
-    background-color: rgb(28, 31, 31);
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: space-around;
+    background-image: url('C:\Users\User\Desktop\NUU\NuuProject\First-Project\src\assets\images\image1.jpg');
+    background-size: cover; /* 放滿 */
+    background-position: center; /* 置中 */
+    background-repeat: no-repeat; /* 避免重複 */
+    padding: 20%;
 }

@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Row from 'react-bootstrap/Row';
+import './Validations.css';
 
 function Validations() {
   const [validated, setValidated] = useState(false);
@@ -19,13 +20,13 @@ function Validations() {
   };
 
   return (
-    <Form noValidate validated={validated} onSubmit={handleSubmit}>
+    <Form className='body1' noValidate validated={validated} onSubmit={handleSubmit}>
       <Row className="mb-3">
       <Form.Group as={Col} md="4" controlId="validationCustomUsername">
           <Form.Label>驗證信箱</Form.Label>
           <InputGroup hasValidation>
             <InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
-            <Form.Control
+            <Form.Control className='user'
               type="text"
               placeholder="Username"
               aria-describedby="inputGroupPrepend"
@@ -36,6 +37,7 @@ function Validations() {
             </Form.Control.Feedback>
           </InputGroup>
         </Form.Group>
+        
         <Form.Group as={Col} md="4" controlId="validationCustom02">
           <Form.Label>密碼</Form.Label>
           <Form.Control
