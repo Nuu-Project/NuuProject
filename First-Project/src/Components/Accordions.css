@@ -8,3 +8,27 @@
     background-repeat: no-repeat; /* 避免重複 */
     padding: 20%;
 }
+
+.A  {
+    margin-top: -20%;
+}
+
+.header1 .accordion-button {
+    font-size: 100%;
+    background-color: #beb9b9; /* 红色 */
+  }
+  
+.header2 .accordion-button {
+    font-size: 100%;
+    background-color: #beb9b9; /* 绿色 */
+  }
+  
+.header3 .accordion-button {
+    font-size: 100%;
+    background-color: #beb9b9; /* 蓝色 */
+  }
+  
+.header4 .accordion-button {
+    font-size: 100%;
+    background-color: #beb9b9; /* 紫色 */
+  }
