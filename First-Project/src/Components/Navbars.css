@@ -3,21 +3,27 @@
     height: 150px;
 }
 
-.k {
-    font-size: 2000%;
+.p {
+    color: rgb(194, 224, 224);
+    font-size: 300%;
+    margin-left: -20%;
 }
 
 .me-auto {
-    font-size: 150%;
-    
+    margin-left: 2.5%;
+    font-size: 200%;
 }
 
 .me-auto a {
-    color: rgb(231, 230, 217);
+    color: rgb(238, 237, 221);
     transition: all 0.65s ease-in-out;
 }
 
 .me-auto a:hover {
     color: rgb(14, 144, 170);
     transition: all 0.5s ease-in-out;
+}
+
+.mb-3-3 {
+    margin-right: 5%;
 }
