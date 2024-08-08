@@ -12,7 +12,6 @@ function Sign_ins() {
           請輸入註冊的聯大信箱
         </Form.Text>
       </Form.Group>
-
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>密碼</Form.Label>
         <Form.Control type="password" placeholder="Password" />
