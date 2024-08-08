@@ -21,33 +21,7 @@ function Validations() {
   return (
     <Form noValidate validated={validated} onSubmit={handleSubmit}>
       <Row className="mb-3">
-        <Form.Group as={Col} md="4" controlId="validationCustom01">
-          <Form.Label>帳號</Form.Label>
-          <Form.Control
-            required
-            type="text"
-            placeholder="Account"
-            defaultValue=""
-          />
-          <Form.Control.Feedback type="invalid">
-            Please provide your account.
-          </Form.Control.Feedback>
-          <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-        </Form.Group>
-        <Form.Group as={Col} md="4" controlId="validationCustom02">
-          <Form.Label>密碼</Form.Label>
-          <Form.Control
-            required
-            type="text"
-            placeholder="Password"
-            defaultValue=""
-          />
-          <Form.Control.Feedback type="invalid">
-            Please provide your password.
-          </Form.Control.Feedback>
-          <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-        </Form.Group>
-        <Form.Group as={Col} md="4" controlId="validationCustomUsername">
+      <Form.Group as={Col} md="4" controlId="validationCustomUsername">
           <Form.Label>驗證信箱</Form.Label>
           <InputGroup hasValidation>
             <InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
@@ -62,8 +36,36 @@ function Validations() {
             </Form.Control.Feedback>
           </InputGroup>
         </Form.Group>
-      </Row>
-      <Row className="mb-3">
+        <Form.Group as={Col} md="4" controlId="validationCustom02">
+          <Form.Label>密碼</Form.Label>
+          <Form.Control
+            required
+            type="text"
+            placeholder="Password"
+            defaultValue=""
+          />
+          <Form.Control.Feedback type="invalid">
+            Please provide your password.
+          </Form.Control.Feedback>
+          <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+        </Form.Group>
+        {/* <Form.Group as={Col} md="4" controlId="validationCustomUsername">
+          <Form.Label>驗證信箱</Form.Label>
+          <InputGroup hasValidation>
+            <InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
+            <Form.Control
+              type="text"
+              placeholder="Username"
+              aria-describedby="inputGroupPrepend"
+              required
+            />
+            <Form.Control.Feedback type="invalid">
+              Please choose your email.
+            </Form.Control.Feedback>
+          </InputGroup>
+        </Form.Group> */}
+      {/* </Row>
+      <Row className="mb-3"> */}
         {/* <Form.Group as={Col} md="6" controlId="validationCustom03">
           <Form.Label></Form.Label>
           <Form.Control type="text" placeholder="City" required />
