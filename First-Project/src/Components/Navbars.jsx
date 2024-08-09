@@ -14,8 +14,8 @@ function Navbars() {
           <Nav className="me-auto">
             <Nav.Link href="/home">首頁</Nav.Link>  
             <Nav.Link href="/card">瀏覽</Nav.Link>
-            <Nav.Link href="/register">註冊</Nav.Link>
-            <Nav.Link href="/sign">登入</Nav.Link>
+            <Nav.Link href="/sign">註冊</Nav.Link>
+            <Nav.Link href="/login">登入</Nav.Link>
             <NavDropdown title="選單" id="#Menu">
               <NavDropdown.Item href="#Menu/Publish">刊登</NavDropdown.Item>
               <NavDropdown.Item href="#Validations.jsx">查看已刊登商品</NavDropdown.Item>
