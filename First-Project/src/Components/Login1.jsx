@@ -1,12 +1,12 @@
-import "./styles.css";
+import "./Login1.css";
 import logo from "./logo.svg";
 import { Link } from 'react-router-dom';
 
 export const Login1 = () => {
   return (
-    <section className="page login-1">
-      <div className="login-1-background"></div>
-      <div className="login-1-card">
+    <section className="page login-2">
+      <div className="login-2-background"></div>
+      <div className="login-2-card">
         <img src={logo} />
         <h2>歡迎使用</h2>
         <form>
