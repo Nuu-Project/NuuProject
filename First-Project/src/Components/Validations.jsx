@@ -23,7 +23,7 @@ function Validations() {
     <Form className='body1' noValidate validated={validated} onSubmit={handleSubmit}>
       <Row className="mb-3">
       <Form.Group as={Col} md="4" controlId="validationCustomUsername">
-          <Form.Label>驗證信箱1</Form.Label>
+          <Form.Label>驗證信箱</Form.Label>
           <InputGroup hasValidation>
             <InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
             <Form.Control className='user'
