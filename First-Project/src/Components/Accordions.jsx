@@ -6,7 +6,7 @@ function Accordions() {
     <div className='body'>
     <Accordion className='A' defaultActiveKey="0">
       <Accordion.Item eventKey="1">
-        <Accordion.Header className='header1'>使用須知:此平台服務項目</Accordion.Header>
+        <Accordion.Header className='header1'>1使用須知:此平台服務項目</Accordion.Header>
         <Accordion.Body>
           此網站專門為聯大學生使用的二手書交易網站。
         </Accordion.Body>
