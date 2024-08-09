@@ -1,4 +1,4 @@
-import "./styles.css";
+import "./Sign1.css";
 import logo from "./logo.svg";
 import { Link } from 'react-router-dom';
 
