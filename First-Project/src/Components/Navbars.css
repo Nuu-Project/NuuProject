@@ -3,6 +3,12 @@
     height: auto; /* 自動調整高度 */
 }
 
+.navbar-brand-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
 .navbar-brand {
     color: rgb(194, 224, 224);
     font-size: 2rem; /* 調整字體大小 */
