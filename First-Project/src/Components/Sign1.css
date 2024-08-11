@@ -4,44 +4,24 @@
   gap: 50px;
   margin: 0;
   height: 84vh;
-  padding: 0 320px;
+  padding: 0 20px;
   color: #aaaaaa;
   background: #eff9ff;
   font-family: "Euclid Circular A", "Poppins";
 }
 
-@media (width >= 500px) {
+@media (max-width: 500px) {
   .page.login-1 {
     padding: 0;
   }
 }
 
-/* .login-1-background {
-  position: fixed;
-  top: -50vmin;
-  left: -50vmin;
-  width: 100vmin;
-  height: 100vmin;
-  border-radius: 47% 53% 61% 39% / 45% 51% 49% 55%;
-  background: #65c8ff;
-}
-
-.login-1-background::after {
-  content: "";
-  position: inherit;
-  right: -50vmin;
-  bottom: -55vmin;
-  width: inherit;
-  height: inherit;
-  border-radius: inherit;
-  background: #143d81;
-} */
-
 .login-1-card {
   overflow: hidden;
   position: relative;
   z-index: 3;
-  width: 94%;
+  width: 100%;
+  max-width: 360px;
   margin: 0 20px;
   padding: 170px 30px 54px;
   border-radius: 24px;
@@ -59,13 +39,14 @@
   width: 1000px;
   height: 1000px;
   border-radius: 50%;
-  background: #1f232b;
+  background: #0c0c0c;
 }
 
-@media (width >= 500px) {
-  .login-1-card {
+@media (max-width: 500px) {
+  .login-2-card {
     margin: 0;
-    width: 360px;
+    width: 100%;
+    max-width: 360px;
   }
 }
 
@@ -113,7 +94,7 @@
 .login-1-card form > button {
   border: 0;
   color: #f9f9f9;
-  background: #24272c;
+  background: #0c0c0c;
   display: grid;
   place-items: center;
   font-weight: 500;
